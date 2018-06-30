@@ -10,7 +10,7 @@ var word = [
 	"sleeping"
 ]
 
- window.onload = countBodyChildren;
+ //window.onload = update();
 
 
 function update(){
