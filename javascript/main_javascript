@@ -10,6 +10,9 @@ var word = [
 	"sleeping"
 ]
 
+ window.onload = countBodyChildren;
+
+
 function update(){
 	//	Get a random value from array array (like word[random number between 0-0.999.. * arraylength])
 	var rand = word[Math.floor(Math.random() * myArray.length)];
