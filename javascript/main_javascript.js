@@ -21,5 +21,3 @@ function update(){
 	document.getElementById("nestedSmall").style.color = random_color;
 	document.getElementById("nestedSmall").innerHtml = "rand";
 }
-
-update()
