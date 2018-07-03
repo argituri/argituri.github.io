@@ -18,7 +18,7 @@ function update(){
 	var rand = word[Math.floor(Math.random() * myArray.length)];
 	var colors = ['#ff0000', '#00ff00', '#0000ff'];
 	var random_color = colors[Math.floor(Math.random() * colors.length)];
-	document.getElementById('nestedSmall').style.color = random_color;
+	document.getElementById("nestedSmall").style.color = random_color;
 	document.getElementById("nestedSmall").innerHtml = "rand";
 }
 
