@@ -12,7 +12,7 @@ var word = [
 ]
 
 // window.onload = update();
-update(elem)
+update(elem);
 
 function update(element){
 	//	Get a random value from array array (like word[random number between 0-0.999.. * arraylength])
