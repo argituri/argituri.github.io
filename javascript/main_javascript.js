@@ -1,4 +1,4 @@
-//var $ = require('jQuery');
+var $ = require('jQuery');
 //	words for the changing word
 //	these could be separated into different groups and shown depending on the time of day or some other parameter.
 var word = [
@@ -10,8 +10,8 @@ var word = [
 	"sleeping"
 ]
 
- window.onload = update();
-
+// window.onload = update();
+$(#nestedSmall).load(update())
 
 function update(){
 	//	Get a random value from array array (like word[random number between 0-0.999.. * arraylength])
