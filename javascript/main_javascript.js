@@ -1,5 +1,6 @@
 //var $ = require('jQuery'); this is not nodejs
-var elem = $('#nested');
+//var elem = $('#nested');
+var elem = document.getElementById("demo");
 //	words for the changing word
 //	these could be separated into different groups and shown depending on the time of day or some other parameter.
 var word = [
