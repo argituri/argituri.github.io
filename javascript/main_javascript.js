@@ -1,6 +1,6 @@
 //var $ = require('jQuery'); this is not nodejs
 //var elem = $('#nested');
-var elem = document.getElementById("demo");
+var elem = document.getElementById("nested");
 //	words for the changing word
 //	these could be separated into different groups and shown depending on the time of day or some other parameter.
 var word = [
@@ -12,8 +12,8 @@ var word = [
 	"sleeping"
 ]
 
-// window.onload = update();
-update(elem);
+window.onload = update(elem);
+//update(elem);
 
 function update(element){
 	//	Get a random value from array array (like word[random number between 0-0.999.. * arraylength])
@@ -21,5 +21,5 @@ function update(element){
 	var colors = ['#ff0000', '#00ff00', '#0000ff'];
 	var random_color = colors[Math.floor(Math.random() * colors.length)];
 	element.style.color = random_color;
-	element.text(rand);
+	element.innerHTML = rand;
 }
