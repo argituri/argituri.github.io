@@ -9,7 +9,10 @@ var word = [
 	"a cup of coffee",
 	"a coke",
 	"a glass of water",
-	"sleeping"
+	"sleeping",
+	"work",
+	"programming",
+	"video games",
 ]
 
 window.onload = update(elem);
