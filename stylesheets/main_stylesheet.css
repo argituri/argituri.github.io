@@ -15,7 +15,7 @@
 table {  
     color: #333; /* Lighten up font color */
     font-family: Helvetica, Arial, sans-serif; /* Nicer font */
-    width: 640px; 
+    width: 40%; 
     border-collapse: 
     collapse; border-spacing: 0; 
 }
